@@ -1,0 +1,13 @@
+<template>
+    <main>
+        <aside>
+            <ul>
+                <li>Dasboard</li>
+                <li>Settings</li>
+                <li>Notifications</li>
+                <li>Logout</li>
+            </ul>
+        </aside>
+        <slot></slot>
+    </main>
+</template>
