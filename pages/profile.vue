@@ -4,8 +4,11 @@
 
 <script setup>
 
+ 
+
   definePageMeta({
-    layout:'sidebar'
+    layout:'sidebar',
+    middleware:['auth'],//khaba case allowed for middlewares
   })
 
 </script>
